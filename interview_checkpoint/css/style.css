@@ -1,0 +1,179 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  }
+
+  .nav {
+    background-color: #c0519d;
+    height: 50px;
+  }
+
+  .menu li {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 15px 50px;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu li:hover {
+      background-color: rgb(255,255,255, .5);
+    }
+
+  .heroImg {
+    width: 100%;
+  }
+
+  .reviews {
+    background-color: rgb(253,205,20, .8);
+    margin-top: -3px;
+    height: 200px;
+    display: flex;
+  }
+
+  .quotes {
+    padding: 4%;
+  }
+
+  h1 {
+    color: white;
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .trailer {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+
+  .trailer iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+
+  /* 4x3 Aspect Ratio */
+  .trailer-4x3 {
+    padding-top: 75%;
+  }
+
+
+  #tickets {
+    background-image: url("../assets/tickets.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 100%;
+    height: auto;
+  }
+
+
+  button {
+    background-color: transparent;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 5% 15px 5%;
+  }
+
+  button a {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  .btn:hover {
+    background-color: rgb(255,255,255, .5);
+  }
+
+  #about {
+    display: flex;
+    padding-bottom: 75px;
+    padding-top: 75px;
+  }
+
+  .aboutImage {
+    padding-left: 8%;
+  }
+
+  .aboutImage img {
+    height: 400px;
+  }
+
+  .info {
+    padding-left: 5%;
+    padding-top: 12px;
+    padding-right: 10%;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    padding-bottom: 10px;
+  }
+
+ .ratingImage img{
+    padding-top: 25px;
+    height: 100px;
+  }
+
+  #posters {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2b22d4;
+  }
+
+  .posterImages img {
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .posterImages {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c0519d;
+  }
+
+  footer ul {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ }
+
+ footer li {
+   padding-left: 1%;
+   padding-right: 1%;
+ }
+
+ .social {
+   height: 50px;
+ }
